@@ -6,6 +6,11 @@ from .models import Flight
 
 @csrf_exempt
 def flight_list(request):
+    """
+       Retrieves a list of flights.
+       Response: Details of a flight including flight number, airline name, departure time,
+           arrival time, duration, number of stops, price, source city, and destination city.
+    """
     if request.method == 'GET':
         flights = Flight.objects.all()
         data = []
@@ -38,6 +43,10 @@ def flight_list(request):
 
 @csrf_exempt
 def search_flights(request):
+    """
+        Searches for flights based on given sourceCity and destinationCity.
+        Returns: JsonResponse: A JSON response containing the list of flights matching the search criteria.
+    """
     if request.method == 'POST':
         source_city = request.POST.get('sourceCity')
         destination_city = request.POST.get('destinationCity')
