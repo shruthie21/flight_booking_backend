@@ -1,0 +1,35 @@
+[
+  {
+    "flight_number": "ABC123",
+    "airline_name": "Airline A",
+    "departure_time": "2024-03-05T08:00:00",
+    "arrival_time": "2024-03-05T10:00:00",
+    "duration": "2 hours",
+    "no_of_stops": 0,
+    "price": 200,
+    "source_city": "Bangalore",
+    "destination_city": "Mumbai"
+  },
+  {
+    "flight_number": "DEF456",
+    "airline_name": "Airline B",
+    "departure_time": "2024-03-06T09:00:00",
+    "arrival_time": "2024-03-06T11:00:00",
+    "duration": "2 hours",
+    "no_of_stops": 1,
+    "price": 250,
+    "source_city": "Mumbai",
+    "destination_city": "Delhi"
+  },
+  {
+    "flight_number": "GHI789",
+    "airline_name": "Airline C",
+    "departure_time": "2024-03-07T10:00:00",
+    "arrival_time": "2024-03-07T12:00:00",
+    "duration": "2 hours",
+    "no_of_stops": 0,
+    "price": 180,
+    "source_city": "Delhi",
+    "destination_city": "Bangalore"
+  }
+]
